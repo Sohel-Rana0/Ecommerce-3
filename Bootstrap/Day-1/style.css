@@ -1,0 +1,31 @@
+.TOP {
+  height: 100%;
+  width: 100%;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(49, 223, 171);
+  padding: 10px;
+}
+.left-part {
+  font-size: 25px;
+  font-style: italic;
+  color: red;
+}
+.right-part {
+  width: 20%;
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 18px;
+}
+.right-part a {
+  text-decoration: none;
+}
+.banner {
+  background-color: greenyellow;
+}
